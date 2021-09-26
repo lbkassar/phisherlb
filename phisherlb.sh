@@ -142,15 +142,15 @@ kill_pid() {
 ## Banner
 banner() {
 	cat <<- EOF
-		${ORANGE}   *
-		${ORANGE}   *        *
-		${ORANGE}   *      *   
-		${ORANGE}   *    *
-		${ORANGE}   *  *
-		${ORANGE}   **
-		${ORANGE}   * *
-		${ORANGE}   *   *                              
-		${ORANGE}   *     *             ${RED}Version : 2.2
+		${ORANGE}   01
+		${ORANGE}   10          01011*
+		${ORANGE}   10          01    01
+		${ORANGE}   10          01      10
+		${ORANGE}   10          10 0 0 1*
+		${ORANGE}   01          10      10
+		${ORANGE}   01          10    10
+		${ORANGE}   01010101010 10101 *     
+		${ORANGE}          ${RED}Version : 2.2
 
 		${GREEN}[${WHITE}-${GREEN}]${CYAN} Tool Created by htr-tech (tahmid.rayat)${WHITE}
 	EOF
@@ -158,12 +158,13 @@ banner() {
 
 ## Small Banner
 banner_small() {
-	cat <<- EOF
+		cat <<- EOF
 		${BLUE}
-		${BLUE}  ░░█▀█░█░█░▀█▀░█▀▀░█░█░█▀▀░█▀▄*    !***!
-		${BLUE}  ░░█▀▀░█▀█░░█░░▀▀█░█▀█░█▀▀░█░**    !***!
-		${BLUE}  ░░▀░░░▀░▀░▀▀▀░▀▀▀░▀░▀░▀▀▀░▀░▀**** !***!      ${WHITE} 2.2
+		${BLUE}  ░░█▀█░█░█░▀█▀░█▀▀░█░█░█▀▀░█▀▄
+		${BLUE}  ░░█▀▀░█▀█░░█░░▀▀█░█▀█░█▀▀░█▀▄
+		${BLUE}  ░░▀░░░▀░▀░▀▀▀░▀▀▀░▀░▀░▀▀▀░▀░▀${WHITE} 2.2
 	EOF
+
 }
 
 ## Dependencies
