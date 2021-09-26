@@ -142,15 +142,15 @@ kill_pid() {
 ## Banner
 banner() {
 	cat <<- EOF
-		${ORANGE}   01
-		${ORANGE}   10          01011*
-		${ORANGE}   10          01    01
-		${ORANGE}   10          01      10
-		${ORANGE}   10          10 0 0 1*
-		${ORANGE}   01          10      10
-		${ORANGE}   01          10    10
-		${ORANGE}   01010101010 10101 *     
-		${ORANGE}          ${RED}Version : 2.2
+		${ORANGE}   01            100110011*
+		${ORANGE}   10            01        10
+		${ORANGE}   10            01         01
+		${ORANGE}   10            01         0
+		${ORANGE}   10            1010101010*
+		${ORANGE}   01            10        0    
+		${ORANGE}   01            10         10
+		${ORANGE}   10            01        10
+		${ORANGE}   0101010101019 101010101*                ${RED}Version : 2.2
 
 		${GREEN}[${WHITE}-${GREEN}]${CYAN} Tool Created by htr-tech (tahmid.rayat)${WHITE}
 	EOF
