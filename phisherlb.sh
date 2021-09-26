@@ -152,7 +152,7 @@ banner() {
 		${ORANGE}   10            01        10
 		${ORANGE}   0101010101019 101010101*                ${RED}Version : 2.2
 
-		${GREEN}[${WHITE}-${GREEN}]${CYAN} Tool Created by htr-tech (tahmid.rayat)${WHITE}
+		${GREEN}[${WHITE}-${GREEN}]${CYAN} Tool Created by htr-tech (kassarahmad)${WHITE}
 	EOF
 }
 
