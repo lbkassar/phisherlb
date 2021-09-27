@@ -1,9 +1,8 @@
-<!-- phisherlb -->
+<!-- phisherLB -->
 
 <p align="center">
   <img src=".imgs/logo.png">
 </p>
-
 <p align="center">
   <img src="https://img.shields.io/badge/Version-2.2-green?style=for-the-badge">
   <img src="https://img.shields.io/github/license/htr-tech/phisherLB?style=for-the-badge">
